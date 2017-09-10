@@ -1,0 +1,198 @@
+*,
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+html,
+body {
+    width: 100%;
+    min-width: 1450px;
+    min-height: 800px;
+    background-color: #d9edff;
+}
+
+#layer1 #leftCloud {
+    top: 60px;
+    left: 0px;
+}
+
+#layer1 #rightCloud {
+    top: 320px;
+    right: 0px;
+}
+
+#layer2 {
+    position: relative;
+    margin: auto;
+    width: 1450px;
+}
+
+#layer3 #granpa {
+    left: 200px;
+    top: 300px;
+}
+
+#layer3 #granma {
+    right: 280px;
+    top: 380px;
+}
+
+#layer4 #titleTop {
+    left: 50%;
+    top: 80px;
+    transform: translateX(-50%);
+}
+
+#layer4 #titleBottom {
+    left: 50%;
+    top: 190px;
+    transform: translateX(-50%);
+}
+
+#layer5 #leftTop {
+    left: 150px;
+    top: 180px;
+}
+
+#layer5 #rightTop {
+    right: 150px;
+    top: 190px;
+}
+
+#layer5 #leftBottom {
+    left: 120px;
+    top: 580px;
+}
+
+#layer5 #rightBottom {
+    right: 150px;
+    top: 580px;
+}
+
+#layer6 #entryPriod {
+    left: 50%;
+    top: 720px;
+    transform: translateX(-50%);
+}
+
+#submit {
+    width: 100%;
+    height: 120px;
+    background-color: rgba(109, 167, 43, 0.79);
+}
+
+#submit #entryButton {
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#submit #entryButtonBottomText {
+    color: #FFF;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#mainContents {
+    background-color: #ffe024;
+    height: 300px;
+}
+
+#mainContents #discription {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #009634;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 
+        2px 2px 0 #FFF, 
+        -2px 2px 0 #FFF, 
+        2px -2px 0 #FFF, 
+        -2px -2px 0 #FFF;
+    text-shadow: 
+        2px 2px 1px #FFF, 
+        -2px 2px 1px #FFF, 
+        2px -2px 1px #FFF, 
+        -2px -2px 1px #FFF;
+}
+
+#snsShare {
+    width: 100%;
+    height: 150px;
+    background-color: #62aec2;
+}
+#snsShareMessage {
+    padding-top: 10px;
+    text-align: center;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+}
+#snsShare #buttons {
+    position:relative;
+    width: 165px;
+    margin: auto;
+}
+#snsShare #twitterButton {
+    width: 80px;
+    text-align: center;
+}
+#snsShare #facebookButton {
+    width: 80px;
+    text-align: center;
+    
+}
+
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #e8e8e8;
+    color: #049b56;
+    font-weight: bold;
+}
+footer #wrapper {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+footer #fotterIcon{
+    top: 10px;
+    left: 10px; 
+}
+footer #copyRight{
+    bottom: 10px;
+    left: 10px; 
+}
+footer #fotterMenuList{
+    top: 10px;
+    left: 150px; 
+}
+footer #toTop{
+    top: 10px;
+    right: 10px; 
+}
