@@ -1,0 +1,61 @@
+#bg {
+    width: 100%;
+}
+#mainContents {
+    width: 100%;
+}
+#layer2 {
+    width: 100%;
+}
+
+footer #wrapper {
+    width: 100%;
+}
+#main div {
+    display: inline-block;
+/*    width: auto;*/
+}
+
+#layer1 #rightCloud {
+    text-align: right;
+}
+
+#layer2 #granpa {
+    left: 5%;
+    top: 205px;
+}
+
+#layer2 #granma {
+    right: 2%;
+    top: 220px;
+    text-align: right;
+}
+
+#layer4 #titleTop {
+    top: 30px;
+    width: 100%;
+    left: inherit;
+    text-align: center;
+    transform: none;
+}
+
+#layer4 #titleBottom {
+    top: 100px;
+    width: 100%;
+    left: inherit;
+    text-align: center;
+    transform: none;
+}
+#layer4 #boy {
+    top: 286px;
+    right: 13%;
+    text-align: right;
+    transform: none;
+}
+
+#layer4 #girl {
+    top: 286px;
+    left: 13%;
+    text-align: left;
+    transform: none;
+}
