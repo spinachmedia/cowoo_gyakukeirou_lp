@@ -20,46 +20,56 @@
         <div id="main" class="relative">
             <!-- 左右から差し込まれるアニメーション -->
             <div id="layer1" class="absolute full">
-                <div id="leftCloud" class="absolute">
+                <div id="leftCloud" class="absolute animated bounceInLeft">
                     <img src="./images/img_cloud_1.png">
                 </div>
-                <div id="rightCloud" class="absolute">
+                <div id="rightCloud" class="absolute animated bounceInRight">
                     <img src="./images/img_cloud_2.png">
                 </div>
             </div>
             <div id="layer2" class="">
+                <!-- おじいちゃんおばあちゃん -->
                 <div id="layer3" class="absolute full">
-                    <div id="granpa" class="absolute">
-                        <img src="./images/pc_img_grandpa.png">
+                    <div id="granpa" class="absolute hidden">
+                        <img style="width:80%" src="./images/pc_img_grandpa.png">
                     </div>
-                    <div id="granma" class="absolute">
-                        <img src="./images/pc_img_grandma.png">
+                    <div id="granma" class="absolute hidden">
+                        <img style="width:80%" src="./images/pc_img_grandma.png">
                     </div>
                 </div>
-                <div id="layer4" class="absolute full">
-                    <div id="titleTop" class="absolute">
+                <!-- メインタイトル -->
+                <div id="layer4" class="absolute full ">
+                    <div id="titleTop" class="absolute hidden">
                         <img src="./images/img_main_fukidashi.png">
                     </div>
-                    <div id="titleBottom" class="absolute">
+                    <div id="titleBottom" class="absolute hidden">
                         <img src="./images/logo_main.png">
                     </div>
+                    <div id="girl" class="absolute hidden">
+                        <img src="./images/img_girl_1.png">
+                    </div>
+                    <div id="boy" class="absolute hidden">
+                        <img src="./images/img_girl_2.png">
+                    </div>
                 </div>
+                <!-- 吹き出し -->
                 <div id="layer5" class="absolute full">
-                    <div id="leftTop" class="absolute">
+                    <div id="leftTop" class="absolute hidden">
                         <img src="./images/img_ballon_1.png">
                     </div>
-                    <div id="rightTop" class="absolute">
+                    <div id="rightTop" class="absolute hidden">
                         <img src="./images/img_ballon_2.png">
                     </div>
-                    <div id="leftBottom" class="absolute">
+                    <div id="leftBottom" class="absolute hidden">
                         <img src="./images/img_ballon_3.png">
                     </div>
-                    <div id="rightBottom" class="absolute">
+                    <div id="rightBottom" class="absolute hidden">
                         <img src="./images/img_ballon_4.png">
                     </div>
                 </div>
+                <!-- ボタン -->
                 <div id="layer6" class="absolute full">
-                    <div id="entryPriod" class="absolute">
+                    <div id="entryPriod" class="absolute hidden">
                         <img src="./images/img_entryperiod.png">
                     </div>
                 </div>
@@ -103,13 +113,13 @@
             </div>
             <div id="fotterMenuList" class="absolute">
                 <div id="">
-                    利用規約
+<!--                    利用規約-->
                 </div>
                 <div id="">
-                    プライバシーポリシーについて
+<!--                    プライバシーポリシーについて-->
                 </div>
                 <div id="">
-                    cotwooについて
+                    <a href="http://cotwoo.com">cotwooについて</a>
                 </div>
             </div>
             <div id="toTop" class="absolute">TOPへ戻る</div>
