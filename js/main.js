@@ -1,4 +1,33 @@
+var loopAnimationVertical = function(element,valueStart,valueEnd){
+    var top = $(element).offset().top; 
+    if(top > valueStart - 5 && top < valueStart + 5){
+        $(element).animate({
+            top: valueEnd + "px"
+        },800,"swing");
+    } else {
+        $(element).animate({
+            top: valueStart + "px"
+        },800,"swing");
+    }
+}
+
+var viveAnimation = function(element){
+//    $(element).removeClass("animated shake");
+    $(element).addClass("animated shake");
+    setTimeout(function(){
+        $(element).removeClass("animated shake");
+    },1000);
+}
+
+
 $(function(){
+    
+    var listenEvents = [
+        'webkitTransitionEnd', // webkit(Chrome1.0, Safari3.2)
+        'oTransitionEnd',      // Opera10.5
+        'otransitionend',      // Opera12
+        'transitionend'        // IE10, Fx4以降, 12.10以降
+    ];
     
     if ((navigator.userAgent.indexOf('iPhone') > 0 && 
          navigator.userAgent.indexOf('iPad') == -1) ||
@@ -15,6 +44,26 @@ $(function(){
         $("#granpa").addClass("animated bounceIn");
         $("#granma").addClass("animated bounceIn");
     },600);
+    
+    //おじいちゃんおばあちゃんのアニメーション
+    setTimeout(function(){
+        loopAnimationVertical("#granpa",337,360);
+        setInterval(function(){loopAnimationVertical("#granpa",337,360)}, 1050);
+    },1500);
+    
+    //おじいちゃんおばあちゃんのアニメーション
+    setTimeout(function(){
+        loopAnimationVertical("#granma",380,400);
+        setInterval(function(){loopAnimationVertical("#granma",380,400)}, 1050);
+    },1800);
+    
+    setTimeout(function(){
+        viveAnimation("#entryButton");
+        setInterval(function(){viveAnimation("#entryButton")}, 3000);
+    },1800);
+    
+    
+    
     
     setTimeout(function(){
         $("#titleTop").removeClass("hidden")
@@ -45,5 +94,8 @@ $(function(){
         $("#entryPriod").removeClass("hidden")
         $("#entryPriod").addClass("animated fadeIn");
     },1300);
+    
+    
+    
     
 })
