@@ -1,3 +1,9 @@
+img {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
 #bg {
     width: 100%;
 }
@@ -11,6 +17,10 @@
 footer #wrapper {
     width: 100%;
 }
+footer {
+    height: 400px;
+    padding-bottom: 150px;
+}
 #main div {
     display: inline-block;
 /*    width: auto;*/
@@ -22,17 +32,17 @@ footer #wrapper {
 
 #layer2 #granpa {
     left: 5%;
-    top: 205px;
+    top: 185px;
 }
 
 #layer2 #granma {
     right: 2%;
-    top: 220px;
+    top: 200px;
     text-align: right;
 }
 
 #layer4 #titleTop {
-    top: 30px;
+    top: 10px;
     width: 100%;
     left: inherit;
     text-align: center;
@@ -40,7 +50,7 @@ footer #wrapper {
 }
 
 #layer4 #titleBottom {
-    top: 100px;
+    top: 80px;
     width: 100%;
     left: inherit;
     text-align: center;
@@ -58,4 +68,76 @@ footer #wrapper {
     left: 13%;
     text-align: left;
     transform: none;
+}
+
+#layer6 #entryPriod {
+    top: 540px;
+    left: inherit;
+    width: 100%;
+    text-align: center;
+    transform: none;
+}
+
+#submit #entryButton {
+    top: 10px;
+    position: relative;
+    left: inherit;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    transform: none;
+}
+#submit #entryButtonBottomText {
+    top: 20px;
+    position: relative;
+    left: inherit;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    transform: none; 
+}
+
+#submit {
+    position:fixed;
+    bottom: 0px;
+    z-index: 1500;
+    text-align: center;
+}
+
+#mainContents #discription {
+    font-size: 32px;
+    padding: 10px 30px;
+}
+
+#snsShare {
+    height: 170px;
+    font-size: 14px;
+}
+#snsShare #snsShareMessage {
+    width: 80%;
+    margin: auto;
+    font-size: 19px;
+}
+#snsShare #buttons {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+#snsShare button {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 70px !important;
+}
+
+/** iphone5用 */
+@media screen and (max-width: 400px) {
+    #boy img {
+        width: 120px !important;
+    }
+    #girl img {
+        width: 120px !important;
+    }
+    #empty {
+        height: 550px !important;
+    }
 }
