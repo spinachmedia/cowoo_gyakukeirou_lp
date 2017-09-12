@@ -15,11 +15,8 @@ html, body {
 #submit {
     width: 100% !important;
     min-width: 100% !important;
-    padding-top: 25px !important;
 }
-#submit #entryButtonBottomText {
-    top: 40px !important;
-}
+
 #snsShare {
     width: 100% !important;
     min-width: 100% !important;
@@ -205,5 +202,11 @@ footer {
     }
     #empty {
         height: 550px !important;
+    }
+    #submit {
+        padding-top: 25px !important;
+    }
+    #submit #entryButtonBottomText {
+        top: 40px !important;
     }
 }
