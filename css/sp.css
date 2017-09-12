@@ -57,21 +57,21 @@ footer {
     transform: none;
 }
 #layer4 #boy {
-    top: 286px;
+    top: 276px;
     right: 13%;
     text-align: right;
     transform: none;
 }
 
 #layer4 #girl {
-    top: 286px;
+    top: 276px;
     left: 13%;
     text-align: left;
     transform: none;
 }
 
 #layer6 #entryPriod {
-    top: 540px;
+    top: 520px;
     left: inherit;
     width: 100%;
     text-align: center;
@@ -129,8 +129,38 @@ footer {
     width: 70px !important;
 }
 
+/** iphone6用 */
+@media screen and (max-width: 380px) {
+    #boy img {
+        width: 120px !important;
+    }
+    #girl img {
+        width: 120px !important;
+    }
+    #empty {
+        height: 550px !important;
+    }
+    
+    #layer6 #entryPriod {
+        top: 480px;
+    }
+    
+    #submit {
+        height: 90px;
+    }
+    
+    #entryButton img {
+        width: 80%;
+    }
+    #submit #entryButtonBottomText {
+        bottom: 0px;
+        top: 12px;
+    }
+
+}
+
 /** iphone5用 */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
     #boy img {
         width: 120px !important;
     }

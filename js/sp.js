@@ -47,5 +47,10 @@ $(function(){
         $("#entryPriod").removeClass("hidden")
         $("#entryPriod").addClass("animated fadeIn");
     },1300);
+    
+    setTimeout(function(){
+        $("#submit").removeClass("hidden")
+        $("#submit").addClass("animated fadeInUp");
+    },1500);
 
 })
