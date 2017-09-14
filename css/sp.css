@@ -162,6 +162,27 @@ footer {
     width: 70px !important;
 }
 
+#layer2 {
+    height: 700px;
+}
+
+#snsShare img {
+    width: auto;
+    max-width: auto;
+    height: auto;
+}
+#submit #entryButtonBottomText {
+    top: 46px;
+}
+#ichinichi {
+    bottom: 160px;
+    right: 5px;
+    width: 140px;
+}
+#ichinichi #ichinichiText {
+    font-size: 18px;
+}
+
 /** iphone6用 */
 @media screen and (max-width: 380px) {
     #boy img {
