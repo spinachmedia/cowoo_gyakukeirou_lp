@@ -95,7 +95,33 @@ $(function(){
         $("#entryPriod").addClass("animated fadeIn");
     },1300);
     
+    setTimeout(function(){
+        $("#ichinichi").removeClass("hidden")
+        $("#ichinichi").css({
+            bottom: "729px",
+            right: "-2529px",
+            width: "10000px",
+            height: "2000px"
+        });
+        $("#ichinichi").animate({
+            bottom: "125px",
+            right: "305px",
+            width: "250px",
+            height: "50px"
+        },function(){
+            console.log("ok");
+            $("#entryPriod").removeClass("fadeIn");
+            $("#entryPriod").addClass("bounceIn");
+
+        });
+    },2000);
+
     
+    
+    
+    $("#toTop").on("click",function(){
+        $("html,body").animate({scrollTop:$('body').offset().top});
+    });
     
     
 })
