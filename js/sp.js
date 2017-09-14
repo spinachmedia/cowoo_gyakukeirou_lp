@@ -55,6 +55,9 @@ $(function(){
 
     
     setTimeout(function(){
+        var bottom = $("#ichinichi").css("bottom");
+        var right = $("#ichinichi").css("right");
+        var width = $("#ichinichi").css("width");
         $("#ichinichi").removeClass("hidden")
         $("#ichinichi").css({
             bottom: "729px",
@@ -63,9 +66,9 @@ $(function(){
             height: "2000px"
         });
         $("#ichinichi").animate({
-            bottom: "160px",
-            right: "5px",
-            width: "140px",
+            bottom: bottom,
+            right: right,
+            width: width,
             height: "50px"
         },function(){
             console.log("ok");

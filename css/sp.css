@@ -110,7 +110,9 @@ footer {
     text-align: center;
     transform: none;
 }
-
+#submit {
+    z-index: 5000 !important;
+}
 #submit #entryButton {
     top: 10px;
     position: relative;
@@ -202,19 +204,50 @@ footer {
     #submit {
         height: 90px;
     }
+    #submit #entryButton {
+        top: -9px;
+        width: 80%;
+    }
     
     #entryButton img {
         width: 80%;
     }
     #submit #entryButtonBottomText {
-        bottom: 0px;
-        top: 12px;
+        bottom: -18px;
+        top: auto;
+    }
+    
+    #ichinichi {
+        bottom: 210px;
+        right: 5px;
+        width: 140px;
+    }
+    #ichinichi #ichinichiText {
+        font-size: 18px;
     }
 
 }
 
 /** iphone5用 */
 @media screen and (max-width: 350px) {
+    #layer2 {
+        height: 520px;
+    }
+    #layer2 #titleBottom {
+        top: 60px;
+    }
+    #layer2 #granpa {
+        top: 120px;
+    }
+    #layer2 #granma {
+        top: 130px;
+    }
+    #layer4 #boy {
+        top: 230px;
+    }
+    #layer4 #girl {
+        top: 230px;
+    }
     #boy img {
         width: 120px !important;
     }
@@ -227,7 +260,26 @@ footer {
     #submit {
         padding-top: 25px !important;
     }
+    #submit #entryButton {
+        top: 10px !important;
+    }
     #submit #entryButtonBottomText {
         top: 40px !important;
+    }
+    #layer6 #entryPriod {
+        top: 425px;
+    }
+    
+    #ichinichi {
+        bottom: 85px;
+        right: 5px;
+        width: 140px;
+    }
+    #ichinichi #ichinichiText {
+        font-size: 18px;
+    }
+    
+    footer {
+        height: 350px !important;
     }
 }

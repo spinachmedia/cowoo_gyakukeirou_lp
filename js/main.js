@@ -21,6 +21,16 @@ var viveAnimation = function(element){
 
 
 $(function(){
+    var _touch = ('ontouchstart' in document) ? 'touchstart' : 'click';
+    $("#twitterButton").on(_touch,function(){
+        
+        var url = "https://twitter.com/home?status=%e8%8b%a5%e8%80%85%e3%82%92%e9%80%86%e3%81%ab%e5%bf%9c%e6%8f%b4%e3%81%97%e3%81%a1%e3%82%83%e3%81%86%ef%bc%81%ef%bc%9f+%e9%80%86%e3%83%bb%e6%95%ac%e8%80%81%e3%81%ae%e6%97%a5%0a9%2f18%28%e6%9c%88%29+1%e6%97%a5%e9%99%90%e5%ae%9a%e3%81%a7%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%99%e3%80%82%0ahttp%3a%2f%2fgyakukeirou.com%0a%23%e9%80%86%e3%83%bb%e6%95%ac%e8%80%81%e3%81%ae%e6%97%a5%0a";
+        window.open(url);
+    });
+    
+    $("#facebookButton").on(_touch,function(){
+        window.open("http://www.facebook.com/share.php?u=http://gyakukeirou.com");
+    });
     
     var listenEvents = [
         'webkitTransitionEnd', // webkit(Chrome1.0, Safari3.2)
