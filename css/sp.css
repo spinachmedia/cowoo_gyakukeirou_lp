@@ -152,6 +152,8 @@ footer {
     width: 80%;
     margin: auto;
     font-size: 19px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 #snsShare #buttons {
     width: 100%;
@@ -198,6 +200,7 @@ footer {
     width: 300px;
     padding: 0px;
     margin: 0px;
+    margin: auto;
 }
 
 #howToJoin #c_01 {
@@ -229,7 +232,7 @@ footer {
 }
 
 #mainContents #howToJoin {
-    height: 587px;
+    height: 620px;
 }
 #granpa {
     text-align: left;
@@ -255,6 +258,11 @@ footer {
     width: 80%;
     margin-bottom: 20px;
 }
+
+#join_tejun {
+    width: 200px;
+}
+
 /** iphone6用 */
 @media screen and (max-width: 380px) {
     #boy img {
