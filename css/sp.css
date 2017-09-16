@@ -185,6 +185,76 @@ footer {
     font-size: 18px;
 }
 
+
+#submit2 {
+    width: 100%;
+    min-width:inherit;
+}
+#submit2 .inner {
+    width: 100%;
+    min-width:inherit;
+}
+#submit #entryButtonBottomText {
+    width: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#howToJoin #c_01 {
+    width: 100%;
+    top: 20px;
+}
+
+#howToJoin .howtoJoin01 {
+    width: 300px !important;
+    height: 68px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 18px;
+}
+
+#howToJoin .howtoJoin01 div {
+    font-size: 18px;
+}
+
+#howToJoin #c_02 {
+    width: 100%;
+    top: 220px;
+}
+#howToJoin .disp01 {
+    width: 80%
+}
+#mainContents #concept_body {
+    width: 80%;
+}
+
+#mainContents #howToJoin {
+    height: 587px;
+}
+#granpa {
+    text-align: left;
+}
+.card {
+    text-align: center;
+    width: 80% !important;
+}
+.card img {
+    width: 50%;
+    margin-bottom: 30px;
+}
+#granpas {
+    text-align: center;
+}
+#submit2 {
+    height: 320px;
+    padding-bottom: 10px;
+    padding-tom: 10px;
+}
+
+#ouenshitemorao {
+    width: 80%;
+    margin-bottom: 20px;
+}
 /** iphone6用 */
 @media screen and (max-width: 380px) {
     #boy img {

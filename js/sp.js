@@ -54,29 +54,29 @@ $(function(){
     },1500);
 
     
-    setTimeout(function(){
-        var bottom = $("#ichinichi").css("bottom");
-        var right = $("#ichinichi").css("right");
-        var width = $("#ichinichi").css("width");
-        $("#ichinichi").removeClass("hidden")
-        $("#ichinichi").css({
-            bottom: "729px",
-            right: "-2529px",
-            width: "10000px",
-            height: "2000px"
-        });
-        $("#ichinichi").animate({
-            bottom: bottom,
-            right: right,
-            width: width,
-            height: "50px"
-        },function(){
-            console.log("ok");
-            $("#entryPriod").removeClass("fadeIn");
-            $("#entryPriod").addClass("bounceIn");
-
-        });
-    },2000);
+//    setTimeout(function(){
+//        var bottom = $("#ichinichi").css("bottom");
+//        var right = $("#ichinichi").css("right");
+//        var width = $("#ichinichi").css("width");
+//        $("#ichinichi").removeClass("hidden")
+//        $("#ichinichi").css({
+//            bottom: "729px",
+//            right: "-2529px",
+//            width: "10000px",
+//            height: "2000px"
+//        });
+//        $("#ichinichi").animate({
+//            bottom: bottom,
+//            right: right,
+//            width: width,
+//            height: "50px"
+//        },function(){
+//            console.log("ok");
+//            $("#entryPriod").removeClass("fadeIn");
+//            $("#entryPriod").addClass("bounceIn");
+//
+//        });
+//    },2000);
 
     
     
