@@ -183,14 +183,17 @@ body {
 }
 
 #mainContents {
+    margin: auto;
+    text-align: center;
     width: 100%;
     min-width: 1280px;
     background-color: #ffe024;
-    height: 300px;
+    padding: 10px 0px;
+    
+    background-image: url(../images/cloud_bg.png);
+    background-position: 0px 300px;
 }
 #mainContents .inner{
-    width: 1280px;
-    height: 300px;
 }
 #mainContents #discription {
     width: 100%;
@@ -206,6 +209,135 @@ body {
         -1px 1px 0px #FFF, 
         1px -1px 0px #FFF, 
         -1px -1px 0px #FFF;
+}
+#mainContents #concept_title {
+    width: 800px;
+}
+#mainContents #concept_body {
+    width: 450px;
+}
+#mainContents #granpa {
+    background-color: #ea9911;
+}
+#mainContents #mainContentsHeader {
+    background-image: url(../images/main_content_header.png);
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+#mainContents #mainContentsFooter {
+    background-image: url(../images/main_content_footer.png);
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+#mainContents #howToJoin {
+    height: 800px;
+    text-align: center;
+}
+#mainContents .contents {
+    height: 300px;
+}
+#mainContents #howToJoinCover {
+    left: 50%;
+    transform: translateX(-50%);
+}
+#mainContents #howToJoinCover {
+    left: 50%;
+    transform: translateX(-50%);
+}
+#howToJoin #c_01 {
+    width: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
+}
+#howToJoin #c_02 {
+    width: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 250px;
+}
+#howToJoin .howtoJoin01 {
+    margin: auto;
+    width: 392px;
+    height: 86px;
+    background-image: url(../images/how_to_join_baloon.png);
+}
+#howToJoin .howtoJoin01 div {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFF;
+    font-size: 30px;
+}
+#howToJoin .disp01 {
+    width: 420px;;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 90px;
+    text-align: center;
+    margin:auto;
+}
+#granpa {
+    text-align: center;
+}
+#granpa .card {
+    width: 30%;
+    display: inline-block;
+    color: #FFF;
+}
+#submit2 {
+    height: 280px;
+}
+
+#submit2 {
+    width: 100%;
+    min-width: 1280px;
+    background-color: rgba(109, 167, 43, 0.79);
+    padding-top: 10px;
+}
+#submit2 .inner {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+#submit2 #entryButton {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+#submit2 #entryButtonBottomText {
+    color: #FFF;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#submit2 a {
+    text-align: center;
+    position: relative;
+}
+#submit2 a img {
+    width: 330px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width;
+    transition-duration: 0.2s;
+    -webkit-transition: width;
+    -webkit-transition-duration: 0.2s;
+}
+#submit a img:hover {
+    width: 380px;
+}
+
+#ouenshitemorao {
+    margin:auto;
+    display: block;
+    width: 700px;
 }
 
 #snsShare {

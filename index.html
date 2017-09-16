@@ -1,173 +1,293 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta charset="utf-8">
-        <title>逆・敬老の日：ぼくら若者が逆に応援されちゃう！？</title>
-        <meta name="description" content="僕ら若者が、敬老の日にお年寄りに逆に応援される、そんなイベントを9/18(月)に一日限定で開催します。">
-        <meta name="author" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="/lib/Animate.css/animate.css">
-        <link rel="stylesheet" href="/css/main.css">
-        <link rel="shortcut icon" href="">
-        
-        
-        
-        <meta property="og:title" content="1日限定!? 逆・敬老の日 逆に若者が応援されちゃいます" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://gyakukeirou.com" />
-        <meta property="og:image" content="http://gyakukeirou.com/images/ogp/img_ogp_illust.png" />
-        <meta property="og:site_name" content="逆・敬老の日" />
-        <meta property="og:description" content="“おじいちゃん、おばあちゃん”から“若者”へ、応援という形で感謝を伝える『逆・敬老の日』を、9/18（月）の敬老の日に実施したいと思います。" />
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>逆・敬老の日：ぼくら若者が逆に応援されちゃう！？</title>
+    <meta name="description" content="僕ら若者が、敬老の日にお年寄りに逆に応援される、そんなイベントを9/18(月)に一日限定で開催します。">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/lib/Animate.css/animate.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="shortcut icon" href="">
 
-        <meta property="fb:app_id" content="App-ID 1495361677176202" />
 
-        <meta name="twitter:card" content="photo" />
 
-        
-    </head>
+    <meta property="og:title" content="1日限定!? 逆・敬老の日 逆に若者が応援されちゃいます" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://gyakukeirou.com" />
+    <meta property="og:image" content="http://gyakukeirou.com/images/ogp/img_ogp_illust.png" />
+    <meta property="og:site_name" content="逆・敬老の日" />
+    <meta property="og:description" content="“おじいちゃん、おばあちゃん”から“若者”へ、応援という形で感謝を伝える『逆・敬老の日』を、9/18（月）の敬老の日に実施したいと思います。" />
 
-    <body>
-        <div id="bg">
-            <div id="main" class="relative">
-                <!-- 左右から差し込まれるアニメーション -->
-                <div id="layer1" class="absolute full">
-                    <div id="leftCloud" class="absolute animated bounceInLeft">
-                        <img src="/images/img_cloud_1.png">
-                    </div>
-                    <div id="rightCloud" class="absolute animated bounceInRight">
-                        <img src="/images/img_cloud_2.png">
-                    </div>
+    <meta property="fb:app_id" content="App-ID 1495361677176202" />
+
+    <meta name="twitter:card" content="photo" />
+
+
+</head>
+
+<body>
+    <div id="bg">
+        <div id="main" class="relative">
+            <!-- 左右から差し込まれるアニメーション -->
+            <div id="layer1" class="absolute full">
+                <div id="leftCloud" class="absolute animated bounceInLeft">
+                    <img src="/images/img_cloud_1.png">
                 </div>
-                <div id="layer2" class="">
-                    <!-- おじいちゃんおばあちゃん -->
-                    <div id="layer3" class="absolute full">
-                        <div id="granpa" class="absolute hidden">
-                            <img style="width:80%" src="/images/pc_img_grandpa.png">
-                        </div>
-                        <div id="granma" class="absolute hidden">
-                            <img style="width:80%" src="/images/pc_img_grandma.png">
-                        </div>
-                    </div>
-                    <!-- メインタイトル -->
-                    <div id="layer4" class="absolute full ">
-                        <div id="titleTop" class="absolute hidden">
-                            <img src="/images/img_main_fukidashi.png">
-                        </div>
-                        <div id="titleBottom" class="absolute hidden">
-                            <img src="/images/logo_main.png">
-                        </div>
-                        <div id="girl" class="absolute hidden">
-                            <img src="/images/img_girl_1.png">
-                        </div>
-                        <div id="boy" class="absolute hidden">
-                            <img src="/images/img_girl_2.png">
-                        </div>
-                    </div>
-                    <!-- 吹き出し -->
-                    <div id="layer5" class="absolute full">
-                        <div id="leftTop" class="absolute hidden">
-                            <img src="/images/img_ballon_1.png">
-                        </div>
-                        <div id="rightTop" class="absolute hidden">
-                            <img src="/images/img_ballon_2.png">
-                        </div>
-                        <div id="leftBottom" class="absolute hidden">
-                            <img src="/images/img_ballon_3.png">
-                        </div>
-                        <div id="rightBottom" class="absolute hidden">
-                            <img src="/images/img_ballon_4.png">
-                        </div>
-                    </div>
-                    <!-- ボタン -->
-                    <div id="layer6" class="absolute full">
-                        <div id="entryPriod" class="absolute hidden">
-                            <img src="/images/img_entryperiod.png">
-                        </div>
-                    </div>
-                    <div id="ichinichi" class="absolute hidden">
-                        <div class="inner relative full">
-                            <div id="ichinichiText" class="absolute">一日限定企画!</div>
-                        </div>
-                    </div>
-                    
+                <div id="rightCloud" class="absolute animated bounceInRight">
+                    <img src="/images/img_cloud_2.png">
                 </div>
             </div>
-<!--            <div style="height: 880px;"></div>-->
-            <div id="submit" class="relative">
-                <div class="inner">
-                <a href="https://line.me/R/ti/p/%40sfz9246k" 
-                   id="entryButton" class="">
+            <div id="layer2" class="">
+                <!-- おじいちゃんおばあちゃん -->
+                <div id="layer3" class="absolute full">
+                    <div id="granpa" class="absolute hidden">
+                        <img style="width:80%" src="/images/pc_img_grandpa.png">
+                    </div>
+                    <div id="granma" class="absolute hidden">
+                        <img style="width:80%" src="/images/pc_img_grandma.png">
+                    </div>
+                </div>
+                <!-- メインタイトル -->
+                <div id="layer4" class="absolute full ">
+                    <div id="titleTop" class="absolute hidden">
+                        <img src="/images/img_main_fukidashi.png">
+                    </div>
+                    <div id="titleBottom" class="absolute hidden">
+                        <img src="/images/logo_main.png">
+                    </div>
+                    <div id="girl" class="absolute hidden">
+                        <img src="/images/img_girl_1.png">
+                    </div>
+                    <div id="boy" class="absolute hidden">
+                        <img src="/images/img_girl_2.png">
+                    </div>
+                </div>
+                <!-- 吹き出し -->
+                <div id="layer5" class="absolute full">
+                    <div id="leftTop" class="absolute hidden">
+                        <img src="/images/img_ballon_1.png">
+                    </div>
+                    <div id="rightTop" class="absolute hidden">
+                        <img src="/images/img_ballon_2.png">
+                    </div>
+                    <div id="leftBottom" class="absolute hidden">
+                        <img src="/images/img_ballon_3.png">
+                    </div>
+                    <div id="rightBottom" class="absolute hidden">
+                        <img src="/images/img_ballon_4.png">
+                    </div>
+                </div>
+                <!-- ボタン -->
+                <div id="layer6" class="absolute full">
+                    <div id="entryPriod" class="absolute hidden">
+                        <img src="/images/img_entryperiod.png">
+                    </div>
+                </div>
+                <div id="ichinichi" class="absolute hidden">
+                    <div class="inner relative full">
+                        <div id="ichinichiText" class="absolute">一日限定企画!</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--            <div style="height: 880px;"></div>-->
+        <div id="submit" class="relative">
+            <div class="inner">
+                <a href="https://line.me/R/ti/p/%40sfz9246k" id="entryButton" class="">
                     <img src="/images/pc_btn_entry.png">
                 </a>
                 <p id="entryButtonBottomText" class="absolute">
                     タップでLINEを起動します
                 </p>
+            </div>
+        </div>
+        <div id="mainContents" class="relative">
+            <div id="01">
+                <div>
+                    <div>
+                        <img id="concept_title" src="images/concept_title.png">
+                    </div>
+                    <div>
+                        <img id="concept_body" src="images/concept_body.png">
+                    </div>
                 </div>
             </div>
-<!--
-            <div id="mainContents" class="relative">
-                <div class="inner">
-                <p id="discription" class="absolute">
-                    詳細は9/17(日) 18:00～を待て！
+            <div id="mainContentsHeader">
+
+            </div>
+            <div id="granpa">
+                <div>
+                    <div>
+                        <img id="main_message" src="images/main_message.png">
+                    </div>
+                    <div>
+                        <div class="card">
+                            <img src="images/01.png">
+                            <div class="comment">
+                                <h5>zzzzzzz</h5>
+                                <div class="comment_body">
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/02.png">
+                            <div class="comment">
+                                <h5>zzzzzzz</h5>
+                                <div class="comment_body">
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/03.png">
+                            <div class="comment">
+                                <h5>zzzzzzz</h5>
+                                <div class="comment_body">
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                    xxxxxxxxxx<br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mainContentsFooter">
+
+            </div>
+            <div id="howToJoin">
+                <div>
+                    <img src="images/how_to_join_title.png">
+                </div>
+                <div class="contents relative">
+                    <img id="howToJoinCover" src="images/how_to_join_main.png" class="absolute">
+                    <div id="c_01" class="absolute">
+                        <div class="howtoJoin01 relative">
+                            <div class="absolute">
+                                ①LINEで友達登録!
+                            </div>
+                        </div>
+                        <div id="" class="disp01 absolute">
+                            まずはLINEで友達登録！<br>
+                            9/18(月)の10:00に、公式アカウントからメッセージが来るよ！<br>
+                            それまでおとなしく待つんだ。そう、まるで植物のように。
+                        </div>
+                    </div>
+                    
+                    <div id="c_02" class="absolute">
+                        <div class="howtoJoin01 relative">
+                            <div class="absolute">
+                                ②相談してみよう！
+                            </div>
+                        </div>
+                        <div id="" class="disp01 absolute">
+                            悩み多き現代人。仕事、恋愛、人間関係、自己実現。<br>
+                            相談する機会なんて、なかなかなかった。<br>
+                            <br>
+                            でも大丈夫。<br>
+                            超高齢化社会日本。そこには確かな「知恵」がある。<br>
+                            経験に裏付けされた、豊富な「知識」がある。<br>
+                            もっと頼っていいんです。頼りましょう。<br>
+                            ぶつけましょう。悩みを。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="submit2" class="relative">
+            <div class="inner">
+               <div>
+                   <img id="ouenshitemorao" src="./images/ouenshitemorao.png">
+               </div>
+                <a href="https://line.me/R/ti/p/%40sfz9246k" id="entryButton" class="">
+                    <img src="/images/pc_btn_entry.png">
+                </a>
+                <p id="entryButtonBottomText" class="absolute">
+                    タップでLINEを起動します
                 </p>
-                </div>
             </div>
--->
-            <div id="snsShare" class="relative">
-                <div class="inner">
+        </div>
+        <div id="snsShare" class="relative">
+            <div class="inner">
                 <p id="snsShareMessage" class="">
-                    とりあえずシェアする
+                    気になったらついシェアをしてしまう
                 </p>
                 <div id="buttons">
                     <button id="twitterButton">
-                        <a href="https://twitter.com/home?status=%e8%8b%a5%e8%80%85%e3%82%92%e9%80%86%e3%81%ab%e5%bf%9c%e6%8f%b4%e3%81%97%e3%81%a1%e3%82%83%e3%81%86%ef%bc%81%ef%bc%9f+%e9%80%86%e3%83%bb%e6%95%ac%e8%80%81%e3%81%ae%e6%97%a5%0a9%2f18%28%e6%9c%88%29+1%e6%97%a5%e9%99%90%e5%ae%9a%e3%81%a7%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%99%e3%80%82%0ahttp%3a%2f%2fgyakukeirou.com%0a%23%e9%80%86%e3%83%bb%e6%95%ac%e8%80%81%e3%81%ae%e6%97%a5%0a" 
-                           class="twitter-share-button" 
-                           data-url="http://gyakukeirou.com" 
-                           data-text="若者を逆に応援しちゃう！？ 逆・敬老の日" 
-                           data-hashtags="逆・敬老の日" target="_blank">
+                        <a href="https://twitter.com/home?status=%e8%8b%a5%e8%80%85%e3%82%92%e9%80%86%e3%81%ab%e5%bf%9c%e6%8f%b4%e3%81%97%e3%81%a1%e3%82%83%e3%81%86%ef%bc%81%ef%bc%9f+%e9%80%86%e3%83%bb%e6%95%ac%e8%80%81%e3%81%ae%e6%97%a5%0a9%2f18%28%e6%9c%88%29+1%e6%97%a5%e9%99%90%e5%ae%9a%e3%81%a7%e5%ae%9f%e6%96%bd%e3%81%97%e3%81%be%e3%81%99%e3%80%82%0ahttp%3a%2f%2fgyakukeirou.com%0a%23%e9%80%86%e3%83%bb%e6%95%ac%e8%80%81%e3%81%ae%e6%97%a5%0a" class="twitter-share-button" data-url="http://gyakukeirou.com" data-text="若者を逆に応援しちゃう！？ 逆・敬老の日" data-hashtags="逆・敬老の日" target="_blank">
                             <img src="/images/btn_share_twitter_mini.png">
                         </a>
                     </button>
                     <button id="facebookButton">
-                        <a href="http://www.facebook.com/share.php?u=http://gyakukeirou.com" 
-                           target="_blank">
+                        <a href="http://www.facebook.com/share.php?u=http://gyakukeirou.com" target="_blank">
                             <img src="/images/btn_share_facebook_mini.png">
                         </a>
                     </button>
                 </div>
-                </div>
             </div>
-            <footer class="relative">
-                <div id="wrapper">
-                    <div id="fotterIcon" class="absolute">
-                        <img src="/images/logo_footer.png">
-                    </div>
-                    <div id="copyRight" class="absolute">
-                        ©cotwoo 2017 allrights reserved.
-                    </div>
-                    <div id="fotterMenuList" class="absolute">
-                        <div id="">
-                            <!--                    利用規約-->
-                        </div>
-                        <div id="">
-                            <!--                    プライバシーポリシーについて-->
-                        </div>
-                        <div id="">
-<!--                            <a href="http://cotwoo.com">cotwooについて</a>-->
-                        </div>
-                    </div>
-                    <div id="toTop" class="absolute">TOPへ戻る</div>
-                </div>
-            </footer>
         </div>
-    </body>
-    <script src="/lib/jquery/jquery-3.2.1.min.js"></script>
-    <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/lib/juliangarnier/anime.min.js"></script>
-    <script src="/js/main.js"></script>
+        <footer class="relative">
+            <div id="wrapper">
+                <div id="fotterIcon" class="absolute">
+                    <img src="/images/logo_footer.png">
+                </div>
+                <div id="copyRight" class="absolute">
+                    ©cotwoo 2017 allrights reserved.
+                </div>
+                <div id="fotterMenuList" class="absolute">
+                    <div id="">
+                        <!--                    利用規約-->
+                    </div>
+                    <div id="">
+                        <!--                    プライバシーポリシーについて-->
+                    </div>
+                    <div id="">
+                        <!--                            <a href="http://cotwoo.com">cotwooについて</a>-->
+                    </div>
+                </div>
+                <div id="toTop" class="absolute">TOPへ戻る</div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="/lib/jquery/jquery-3.2.1.min.js"></script>
+<script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="/lib/juliangarnier/anime.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103052114-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments)
+    };
+    gtag('js', new Date());
+
+    gtag('config', 'UA-103052114-2');
+</script>
 
 </html>
