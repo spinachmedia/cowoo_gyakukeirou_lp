@@ -256,7 +256,7 @@ body {
     width: 600px;
     left: 50%;
     transform: translateX(-50%);
-    top: 250px;
+    top: 230px;
 }
 #howToJoin .howtoJoin01 {
     margin: auto;
@@ -273,12 +273,21 @@ body {
     font-size: 30px;
 }
 #howToJoin .disp01 {
-    width: 420px;;
+    width: 500px;;
     left: 50%;
     transform: translateX(-50%);
     top: 90px;
     text-align: center;
     margin:auto;
+}
+.disp01 a {
+    color: #4452ff;
+    border-bottom: solod #4452ff 1px;
+}
+.comment_body {
+    width: 250px;
+    margin: auto;
+    height: 200px;
 }
 #granpa {
     text-align: center;
@@ -287,9 +296,13 @@ body {
     width: 30%;
     display: inline-block;
     color: #FFF;
+    height: 400px;
 }
 #submit2 {
     height: 280px;
+}
+.card h5 {
+    font-size: 22px;
 }
 
 #submit2 {
