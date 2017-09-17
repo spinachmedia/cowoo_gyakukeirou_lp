@@ -222,17 +222,22 @@ footer {
 
 #howToJoin #c_02 {
     width: 100%;
-    top: 220px;
+    top: 260px;
 }
 #howToJoin .disp01 {
-    width: 80%
+    width: 80%;
+    top: 65px;
 }
 #mainContents #concept_body {
     width: 80%;
 }
 
+#howToJoinCover {
+    height: 680px;
+}
+
 #mainContents #howToJoin {
-    height: 620px;
+    height: 750px;
 }
 #granpa {
     text-align: left;
