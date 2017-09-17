@@ -233,7 +233,7 @@ footer {
 }
 
 #howToJoinCover {
-    height: 680px;
+    height: 680px !important;
 }
 
 #mainContents #howToJoin {
